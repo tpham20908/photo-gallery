@@ -5,6 +5,7 @@ import { Container } from '@material-ui/core';
 import theme from './styles/theme';
 import Title from './comps/Title';
 import UploadForm from './comps/UploadForm';
+import ImageGrid from './comps/ImageGrid';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Container maxWidth="md">
         <Title />
         <UploadForm />
+        <ImageGrid />
       </Container>
     </ThemeProvider>
   );
